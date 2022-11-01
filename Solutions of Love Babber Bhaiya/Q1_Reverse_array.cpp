@@ -1,14 +1,12 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 void reversearray(int *arr, int n)
 {
-    for (int i = 0; i < n / 2; i++)
+    int s = 0, e = n - 1;
+    while (s <= e)
     {
-        int temp = arr[i];
-        arr[i] = arr[n - i - 1];
-        arr[n - i - 1] = temp;
+        swap(arr[s++], arr[e--]);
     }
-    return;
 }
 int main()
 {

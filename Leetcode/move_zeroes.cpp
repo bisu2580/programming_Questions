@@ -4,27 +4,19 @@
 using namespace std;
 
 // Approach 1- Without using extra space
-void movezeros(vector<int> &nums)
+void moveZeroes(vector<int> &nums)
 {
-    int j = 0;
-    for (int i = 0; i < nums.size(); i++)
+    int i = 0;
+    for (int j = 0; j < nums.size(); j++)
     {
-        if (nums[i] != 0)
+        if (nums[j] != 0)
         {
-            nums[j] = nums[i];
-            j++;
+            swap(nums[i++], nums[j]);
         }
-    }
-    /*using while loop*/
-
-    while (j < nums.size())
-    {
-        nums[j] = 0;
-        j++;
     }
 }
 // Approach 2- using extra space
-// void movezeros(vector<int> &nums)
+// void moveZeros(vector<int> &nums)
 // {
 //     vector<int> wow(nums.size());
 //     int i = 0, j = 0;
@@ -42,7 +34,7 @@ void movezeros(vector<int> &nums)
 int main()
 {
     vector<int> nums = {0, 1, 0, 3, 12};
-    movezeros(nums);
+    moveZeroes(nums);
     cout << "The contents of array after moving all zeroes is \n";
     for (int i = 0; i < nums.size(); i++)
     {
