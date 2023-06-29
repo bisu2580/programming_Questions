@@ -3,4 +3,4 @@
 # Leetcode Stats
 [![KnlnKS's LeetCode stats](https://leetcode-stats-six.vercel.app/?username=biswa_20)](https://leetcode.com/biswa_20/)
 # Geeks For Geeks Stats
-[![Narendra's geeksForgeeks stats](https://geeks-for-geeks-stats-api-napiyo.vercel.app/?userName=<biswajit20>)](<https://auth.geeksforgeeks.org/user/biswajit20>)
+[![Narendra's geeksForgeeks stats](https://geeks-for-geeks-stats-api-napiyo.vercel.app/?userName=biswajit20)](<https://auth.geeksforgeeks.org/user/biswajit20>)
